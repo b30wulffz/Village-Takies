@@ -5,10 +5,10 @@ class Editor extends Component {
     render() {
         return(
             <div className="Container">
-        <div className="row">
+        <div className="row" style={{marginLeft: '180px'}}>
           {/*Base Video*/}
-
-            <div className="base-video-container">
+          
+          <div className="base-video-container">
                 <div className="video-container">
                   <h2>Text 1 :Our Services</h2>
                   <div className="video-main"><h2>Video</h2></div>
@@ -76,10 +76,12 @@ class Editor extends Component {
             <button className="button-1">Audio2</button>
             <button className="button-1">Add Audio</button>
 
-            </div>
+            
 
           </div>
 
+          </div>
+            
 
         </div>
 
