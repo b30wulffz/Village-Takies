@@ -10,13 +10,6 @@
 *,*:before,*:after{
     box-sizing: content-box !important;
 }
-
-.Container {
-    padding: 2rem;
-    position: absolute;
-    
-}
-
 .video-editing-row{
     width: 1000px;
     margin: 5em;
@@ -170,6 +163,24 @@
     list-style:none;
 }
 
+.time-line-bar{
+    height: 20px;
+    width: 45em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: #2952a3;
+    opacity: 0.9;
+}
+
+.time-line-bar-text {
+    margin-left: 1em;
+    margin-right: 1em;
+    word-spacing: 10px;
+}
+
+
+
 /*Buttos*/
 
 .head-button{
@@ -252,6 +263,9 @@ width: 100%;
     box-shadow: 0px 1px 4px -2px #333;
     background-image: linear-gradient(rgba(238,130,238,0.5),#633c63);
 }
+
+
+
 
 .time-line-main {
     margin-top: -6.5px;

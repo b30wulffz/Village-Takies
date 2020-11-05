@@ -4,11 +4,11 @@ import './Editor.css';
 class Editor extends Component {
     render() {
         return(
-            <div className="Container">
-        <div className="row" style={{marginLeft: '180px'}}>
+            <div className="video-editing-Container">
+        <div className="video-editing-row">
           {/*Base Video*/}
-          
-          <div className="base-video-container">
+
+            <div className="base-video-container">
                 <div className="video-container">
                   <h2>Text 1 :Our Services</h2>
                   <div className="video-main"><h2>Video</h2></div>
@@ -56,7 +56,7 @@ class Editor extends Component {
               <h2>TimeLines</h2>
               <div className="time-line-bar-container">
                 <div className="time-line-bar"></div>
-                <div></div>
+                <div className="time-line-bar-text"><p>1 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 105 110</p></div>
               </div>
             </div>
             <div className="time-line-main">
@@ -76,12 +76,10 @@ class Editor extends Component {
             <button className="button-1">Audio2</button>
             <button className="button-1">Add Audio</button>
 
-            
+            </div>
 
           </div>
 
-          </div>
-            
 
         </div>
 
